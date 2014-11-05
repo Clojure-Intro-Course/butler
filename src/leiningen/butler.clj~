@@ -1,0 +1,5 @@
+(ns leiningen.not-bikeshed)
+
+(defn not-bikeshed [project & keys] (println "main ran"))
+
+
