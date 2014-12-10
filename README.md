@@ -20,7 +20,7 @@ All it actually does is run:
 2. `lein jar`
 3. `lein install`
 
-This makes the pieces that Leiningen needs, and places them in Leiningen's local repository. To run it, simply `lein hooke-sinker` in the context of a project that has `[lein-hooke-sinker "x.x.x"]` in `:plugins` in the project map. This runs the active behavior of the project; what happens when it is directly invoked. There is another set of behaviors, the automatic loading of hooks (see Robert Hooke) contained in `/src/leiningen/hooke_sinker.clj`'s `hooks` function.
+This makes the pieces that Leiningen needs, and places them in Leiningen's local repository. To run it, simply `lein hooke-sinker` in the context of a project that has `[lein-hooke-sinker "0.2.0"]` in `:plugins` in the project map. This runs the active behavior of the project; what happens when it is directly invoked. There is another set of behaviors, the automatic loading of hooks (see Robert Hooke) contained in `/src/leiningen/hooke_sinker.clj`'s `hooks` function.
 
 Leiningen's [plugin documentation](https://github.com/technomancy/leiningen/blob/stable/doc/PLUGINS.md) is required reading.
 
